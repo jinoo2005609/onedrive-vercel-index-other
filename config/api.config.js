@@ -10,8 +10,8 @@
 module.exports = {
   // The clientId and clientSecret are used to authenticate the user with Microsoft Graph API using OAuth. You would
   // not need to change anything here if you can authenticate with your personal Microsoft account with OneDrive International.
-  clientId: 'd87bcc39-1750-4ca0-ad54-f8d0efbb2735',
-  obfuscatedClientSecret: 'U2FsdGVkX1830zo3/pFDqaBCVBb37iLw3WnBDWGF9GIB2f4apzv0roemp8Y+iIxI3Ih5ecyukqELQEGzZlYiWg==',
+  clientId: '932f8872-0da4-4dac-abc5-4cbaff28859c',
+  obfuscatedClientSecret: 'U2FsdGVkX19CBvbs0Gt98b2lUA4ZEJtinS3MHACEseTuueYy3ugO9ncb+YcIsQqx0Il9Lmnxr/iradCMp14f2g==',
 
   // The redirectUri is the URL that the user will be redirected to after they have authenticated with Microsoft Graph API.
   // Likewise, you would not need to change redirectUri if you are using your personal Microsoft account with OneDrive International.
@@ -27,5 +27,5 @@ module.exports = {
 
   // The directLinkRegex is used to match the direct link of the file from the response of the API. We originally use this to prevent
   // unauthorised use of the proxied download feature - but that is disabled for now. So you can safely ignore this settings.
-  directLinkRegex: 'public[.].*[.]files[.]1drv[.]com',
+  directLinkRegex: 'esherloon-my[.]sharepoint[.]com',
 }
