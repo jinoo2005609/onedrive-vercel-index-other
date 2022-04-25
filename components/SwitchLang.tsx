@@ -19,7 +19,7 @@ const localeText = (locale: string): string => {
   switch (locale) {
     case 'en':
       return '🇬🇧 English'
-    case 'ko-KR':
+    case 'ko':
       return '🇰🇷 한국어'
     default:
       return '🇬🇧 English'
