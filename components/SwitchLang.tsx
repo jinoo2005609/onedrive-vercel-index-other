@@ -22,7 +22,7 @@ const localeText = (locale: string): string => {
     case 'ko-KR':
       return '🇰🇷 한국어'
     default:
-      return '🇰🇷 한국어'
+      return '🇬🇧 English'
   }
 }
 
